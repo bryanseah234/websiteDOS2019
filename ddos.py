@@ -1,8 +1,8 @@
 import socket
 import threading
 
-target = '172.67.130.8' #public ip of website
-fake_ip = '198.49.23.145' #must be a valid ip
+target = '0.0.0.0' #public ip of website
+fake_ip = '0.0.0.0' #must be a valid ip
 port = 80 #can be other ports
 
 attack_num = 0
